@@ -21,7 +21,7 @@ public class PlayFabLogin : MonoBehaviourPunCallbacks
     public void Awake()
     {
         PhotonNetwork.ConnectUsingSettings();
-        //PlayFabSettings.DeveloperSecretKey = "WIOTHSR6IOYIXYRM9J4BC76JICN5EQSQR4ZE3UAABA6NXXKSDE";
+        //PlayFabSettings.DeveloperSecretKey = "";
     }
    
 
